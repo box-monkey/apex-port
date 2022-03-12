@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Navigation.css";
+import "./Nav.css";
 
 function Nav(props) {
   const { pages = [], activePage, setActivePage } = props;
@@ -8,18 +8,13 @@ function Nav(props) {
     <header>
       <nav>
         <ul className="main-nav">
-          <li className={`${activePage === "homepage" && "nav-active"}`}>
-            <span onClick={() => setActivePage("homepage")}>
-              <a href="#">Roberto's Portfolio</a>
-            </span>
-          </li>
           <li className={`${activePage === "about" && "nav-active"}`}>
             <span onClick={() => setActivePage("about")}>
               <a href="#about">About Me</a>
             </span>
           </li>
-          <li className={`${activePage === "project" && "nav-active"}`}>
-            <span onClick={() => setActivePage("project")}>Portfolio</span>
+          <li className={`${activePage === "portfolio" && "nav-active"}`}>
+            <span onClick={() => setActivePage("portfolio")}>Portfolio</span>
           </li>
           <li className={`${activePage === "contact" && "nav-active"}`}>
             <span onClick={() => setActivePage("contact")}>Contact</span>
