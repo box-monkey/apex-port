@@ -28,7 +28,7 @@ section {
     border: 1px solid black;
 }
 
-h4 {
+.section-text {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     text-align: center;
@@ -37,6 +37,6 @@ h4 {
 	letter-spacing: 1px;
 	word-spacing: 4px;
 	line-height: 1.5em;
-	margin: 0 400px;
 	color: white;
+	
 }
