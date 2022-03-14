@@ -1,67 +1,97 @@
-import React, { useState } from 'react';
-
-import { validateEmail } from '../../utils/helpers';
+import React, { useState } from "react";
+import "./contact.css";
+import { validateEmail } from "../../utils/helpers";
 
 function ContactForm() {
-  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+  const [formState, setFormState] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
-  const [errorMessage, setErrorMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState("");
   const { name, email, message } = formState;
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!errorMessage) {
-      console.log('Submit Form', formState);
+      setFormState({ [e.target.name]: e.target.value });
+      console.log("Submit Form", formState);
     }
   };
 
   const handleChange = (e) => {
-    if (e.target.name === 'email') {
+    if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
-        setErrorMessage('Your email is invalid.');
+        setErrorMessage("Your email is invalid.");
       } else {
-        setErrorMessage('');
+        setErrorMessage("");
       }
     } else {
       if (!e.target.value.length) {
         setErrorMessage(`${e.target.name} is required.`);
       } else {
-        setErrorMessage('');
+        setErrorMessage("");
       }
-    }
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-      console.log('Handle Form', formState);
     }
   };
 
   return (
-    <section>
-      <h1 data-testid="h1tag">Contact me</h1>
-      <h3>Below contact form functionality not currently set up 
+    <section className="contact-section">
+      <h3>
+        Below contact form functionality not currently set up
         <br />
         Please contact me via email: jr.gasparin15@gmail.com
       </h3>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
+        <h1 data-testid="h1tag">Contact me</h1>
+        <div className="contact-form-item">
           <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+          <br />
+          <input
+            type="text"
+            name="name"
+            defaultValue={name}
+            onBlur={handleChange}
+            className="contact-form-input"
+          />
         </div>
-        <div>
+        <div className="contact-form-item">
           <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+          <br />
+          <input
+            type="email"
+            name="email"
+            defaultValue={email}
+            onBlur={handleChange}
+            className="contact-form-input"
+          />
         </div>
-        <div>
+        <div className="contact-form-item">
           <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+          <br />
+          <textarea
+            name="message"
+            rows="5"
+            defaultValue={message}
+            onBlur={handleChange}
+            className="contact-form-input"
+          />
         </div>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
+        <button
+          data-testid="button"
+          type="submit"
+          className="contact-form-item"
+          id="btn"
+        >
+          Submit
+        </button>
       </form>
     </section>
   );
