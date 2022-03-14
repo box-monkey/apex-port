@@ -39,6 +39,10 @@ function ContactForm() {
   return (
     <section>
       <h1 data-testid="h1tag">Contact me</h1>
+      <h3>Below contact form functionality not currently set up 
+        <br />
+        Please contact me via email: jr.gasparin15@gmail.com
+      </h3>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>

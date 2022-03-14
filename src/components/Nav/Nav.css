@@ -3,3 +3,7 @@ header {
     background-color: aquamarine;
     border: 2px solid black;
 }
+
+main-nav {
+  font-size: large;
+}
