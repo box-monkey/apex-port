@@ -6,6 +6,7 @@ function Resume() {
     <section className="resume-section">
       <div className="resume-container">
         <h1>Skills</h1>
+        <p>University of Toronto full stack boot-camp graduate.</p>
         {/* <br/> */}
 
         <h2>Front End</h2>
@@ -19,7 +20,6 @@ function Resume() {
           <li>React</li>
         </ul>
 
-        <br />
         <h2>Back End</h2>
         <ul>
           <li>APIs</li>

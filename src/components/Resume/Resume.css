@@ -1,9 +1,14 @@
 .resume-section {
-	background-color: rgb(6, 119, 139);
+	background-color: rgb(1, 133, 156);
 	color: white;
 	height: 90.5vh;
+	margin: 0px auto;
+	border: 2px solid black;
 }
 
+p {
+font-family: 'Times New Roman', Times, serif;
+}
 .resume-container {
 	margin: 0px auto;
 	width: 60%;

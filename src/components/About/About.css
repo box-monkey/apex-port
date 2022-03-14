@@ -1,0 +1,42 @@
+section {
+    background-color: rgb(6, 119, 139);
+    border: 2px solid black;
+}
+
+.section-title {
+	padding: 10px 0 0 0;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.section-title:after {
+	display: block;
+	height: 2px;
+	background-color: #555;
+	content: ' ';
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+.me {
+	height: 325px;
+	width: auto;
+	margin: 0 auto;
+	display: block;
+    border: 1px solid black;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 30px 0 30px 0;
+	font-weight: 300;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+	line-height: 1.5em;
+	margin: 0 400px;
+	color: white;
+}
