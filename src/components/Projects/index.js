@@ -16,7 +16,7 @@ function Projects(props) {
             <a href={githubLink} target="_blank">
             <img src={repo} className="github-img"/>
             </a>
-          
+            
         </h3>
       </div>
     </div>

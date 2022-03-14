@@ -31,8 +31,8 @@ function Portfolio() {
       <Projects
         name="Weather Forecast"
         repo={ghlogo}
-        githubLink="https://box-monkey.github.io/digital-samurai/"
-        githubDeploy="https://github.com/box-monkey/digital-samurai"
+        githubLink="https://github.com/box-monkey/digital-samurai"
+        githubDeploy="https://box-monkey.github.io/digital-samurai/"
         projImg={weatherapp}
       ></Projects>
 
