@@ -7,10 +7,11 @@ import notetaker from "../../assets/images/notetaker.png";
 import sellquicker from "../../assets/images/sellquicker.PNG";
 import weatherapp from "../../assets/images/weatherapp.png";
 import ghlogo from "../../assets/images/logo.png";
+import "./Portfolio.css";
 
 function Portfolio() {
   return (
-    <section>
+    <section className="portfolio-container">
       <Projects
         name="Techblog"
         repo={ghlogo}

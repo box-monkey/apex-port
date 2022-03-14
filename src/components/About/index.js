@@ -9,16 +9,15 @@ function About() {
       <img src={me} alt="me" className="me" />
 
       <h4>
-        Hi, I'm Roberto Gasparin, I'm a full stack developer. 
-        <br/>
-        My passion is building and creating art. I am eager to accumulate, share and implement knowledge. Attended a rigorous bootcamp from the
-        university of Toronto in collaberation with triOS college. In which I
-        was able to gather full stack application capabilites. 
+        Hi, I'm Roberto Gasparin, I'm a full stack developer.
         <br />
-         Let's build things on the internet.
+        My passion is building and creating art. I am eager to accumulate, share
+        and implement knowledge. Attended a rigorous bootcamp from the
+        university of Toronto in collaberation with triOS college. In which I
+        was able to gather full stack application capabilites.
+        <br />
+        Let's build things on the internet.
       </h4>
-
-      {/* <h1 id="about">Who am I?</h1> */}
     </section>
   );
 }

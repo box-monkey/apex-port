@@ -1,27 +1,20 @@
 import React from "react";
+import "./Projects.css";
 
 function Projects(props) {
   const { name, githubLink, githubDeploy, projImg, repo } = props;
 
   return (
     <div>
-      <img src={projImg} />
+      <img src={projImg} className="project-img"/>
       <div className="img-container">
         <h3>
           <a href={githubDeploy} target="_blank" className="project-name">
             {name}
           </a>
 
-          {/* <a href={githubLink} target="_blank">
-            <svg xlms='http://www.w3.org/2000/svg' 
-            viewBox='0 0 512 512'>
-            <img src={repo} />
-            Github repo
-            </svg>
-            </a> */}
-
             <a href={githubLink} target="_blank">
-            <img src={repo} />
+            <img src={repo} className="github-img"/>
             </a>
           
         </h3>

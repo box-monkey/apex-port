@@ -1,0 +1,33 @@
+
+#projects {
+	margin: 20px;
+	position: relative;
+}
+
+.project-img {
+	height: auto;
+	width: 40vw;
+	display: block;
+	position: relative;
+    padding: auto;
+    margin: 4.0rem;
+}
+
+.github-img {
+	height: 40px;
+	width: 65px;
+	fill: white;
+}
+
+.image-container {
+	top: 50px;
+	left: 25px;
+	position: absolute;
+}
+
+.project-name {
+	color: white;
+	margin-right: 20px;
+	text-decoration: none;
+	border-bottom: 1px solid black;
+}
