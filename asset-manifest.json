@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/apex-port/static/css/main.50014c23.css",
+    "main.js": "/apex-port/static/js/main.50070a5b.js",
+    "static/js/787.5a93d181.chunk.js": "/apex-port/static/js/787.5a93d181.chunk.js",
+    "static/media/apex1.png": "/apex-port/static/media/apex1.d168249c78d20cba4d71.png",
+    "static/media/me.jpg": "/apex-port/static/media/me.f794ee04a5294f466e98.jpg",
+    "static/media/getfit.PNG": "/apex-port/static/media/getfit.24fa41ee8d89c7d787ab.PNG",
+    "static/media/weatherapp.png": "/apex-port/static/media/weatherapp.79085386b34e8df56edf.png",
+    "static/media/sellquicker.PNG": "/apex-port/static/media/sellquicker.8f3b56bdd2d9fc185200.PNG",
+    "static/media/ecom.png": "/apex-port/static/media/ecom.5f5aeb5500c85d1a7877.png",
+    "static/media/notetaker.png": "/apex-port/static/media/notetaker.09caf303a5485aea15d5.png",
+    "static/media/logo.png": "/apex-port/static/media/logo.1e61d3b363eea7dd0958.png",
+    "index.html": "/apex-port/index.html",
+    "main.50014c23.css.map": "/apex-port/static/css/main.50014c23.css.map",
+    "main.50070a5b.js.map": "/apex-port/static/js/main.50070a5b.js.map",
+    "787.5a93d181.chunk.js.map": "/apex-port/static/js/787.5a93d181.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50014c23.css",
+    "static/js/main.50070a5b.js"
+  ]
+}
