@@ -1,7 +1,7 @@
 import React from "react";
 import Projects from "../Projects";
 import apex1 from "../../assets/images/apex1.png";
-import ecom from "../../assets/images/ecom.png";
+import jibberjabber from "../../assets/images/jib.png";
 import getfit from "../../assets/images/getfit.PNG";
 import notetaker from "../../assets/images/notetaker.png";
 import sellquicker from "../../assets/images/sellquicker.PNG";
@@ -12,6 +12,14 @@ import "./Portfolio.css";
 function Portfolio() {
   return (
     <section className="portfolio-container">
+         <Projects
+        name="Jibber Jabber"
+        repo={ghlogo}
+        githubLink="https://github.com/KKkaran/Jibber-Jabber"
+        githubDeploy="https://jibber-jabber-app.herokuapp.com/"
+        projImg={jibberjabber}
+      ></Projects>
+
       <Projects
         name="Techblog"
         repo={ghlogo}
@@ -52,13 +60,6 @@ function Portfolio() {
         projImg={sellquicker}
       ></Projects>
 
-      <Projects
-        name="e-commerce back end"
-        repo={ghlogo}
-        githubLink="https://github.com/box-monkey/apex-commerce-rear-end"
-        githubDeploy="https://watch.screencastify.com/v/CA2NbsS2Ay4jdTykwYId"
-        projImg={ecom}
-      ></Projects>
     </section>
   );
 }
