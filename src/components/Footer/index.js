@@ -17,8 +17,7 @@ function Footer() {
         <li className="footer-li">
           <a
             className="footer-link"
-            // create linked in profile and add
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/roberto-gasparin-611a64236"
             target="_blank"
           >
             LinkedIn

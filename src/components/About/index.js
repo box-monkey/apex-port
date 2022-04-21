@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../../assets/images/me.jpg";
+import me from "../../assets/images/headshot.jpg";
 import "./About.css";
 
 function About() {
@@ -17,7 +17,7 @@ function About() {
         university of Toronto <br /> in collaberation with triOS college. In
         which I was able to gather full stack application capabilites.
         <br />
-        Let's build things on the internet.
+        Let's build things on the internet!
       </h4>
     </section>
   );

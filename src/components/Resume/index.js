@@ -5,6 +5,16 @@ function Resume() {
   return (
     <section className="resume-section">
       <div className="resume-container">
+        <p>
+          Download my<span> </span>
+          <a
+            href="https://docs.google.com/document/d/e/2PACX-1vQfZxwVA4GGAeHkQZwYShOQbgMcDZdAxxtFt-9x49L3O-uHypMktUtCU81BOXG6W1xHXvjW_QEW6qv3/pub"
+            target="_blank"
+          >
+            resume
+          </a>
+        </p>
+
         <h1>Skills</h1>
         <p>University of Toronto full stack boot-camp graduate.</p>
         {/* <br/> */}
